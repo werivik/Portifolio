@@ -37,31 +37,28 @@ const Home = () => {
 
   const projects = [
     {
-      id: 1,
-      title: "E-Commerce Platform",
+      id: "ecommerce",
+      title: "Nuvra",
       description: "A full-stack e-commerce solution built with React and Node.js, featuring user authentication, payment integration, and admin dashboard.",
-      image: "/api/placeholder/400/250",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
-      category: "Full Stack Development",
-      link: "/project/ecommerce-platform"
+      image: "/public/media/ecommerce/homepage.png",
+      technologies: ["JavaScript", "HTML", "Tailwind", "Noroff API"],
+      category: "Frontend Development"
     },
     {
-      id: 2,
+      id: "agency",
       title: "Task Management App",
       description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "/api/placeholder/400/250",
-      technologies: ["Vue.js", "Firebase", "Vuetify", "WebSocket"],
-      category: "Frontend Development",
-      link: "/project/task-management-app"
+      image: "/public/media/agency/homepage.png",
+      technologies: ["JavaScript", "HTML", "Tailwind", "Noroff API"],
+      category: "Frontend Development"
     },
     {
-      id: 3,
+      id: "Venue",
       title: "Data Visualization Dashboard",
       description: "An interactive dashboard for data visualization and analytics, featuring dynamic charts, filters, and export capabilities.",
-      image: "/api/placeholder/400/250",
-      technologies: ["React", "D3.js", "Python", "Flask"],
-      category: "Data Visualization",
-      link: "/project/data-dashboard"
+      image: "/public/media/venue/homepage.png",
+      technologies: ["JavaScript", "HTML", "Tailwind", "Noroff API"],
+      category: "Frontend Development"
     }
   ];
 
@@ -70,7 +67,6 @@ const Home = () => {
       initial="initial"
       animate="animate"
       exit="exit"
-      variants={pageVariants}
       transition={{ duration: 0.5, ease: "easeInOut" }}
       className={styles.homeContainer}
     >
@@ -133,7 +129,7 @@ const Home = () => {
               transition={{ duration: 0.6, delay: index * 0.2 }}
               className={styles.projectCard}
             >
-              <Link to={project.link} className={styles.cardLink}>
+              <Link to={`/article/${project.id}`} className={styles.cardLink}>
                 <div className={styles.cardImage}>
                   <img 
                     src={project.image} 
