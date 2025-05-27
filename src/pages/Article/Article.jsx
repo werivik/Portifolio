@@ -121,9 +121,9 @@ The Firebase integration provides seamless data synchronization, user authentica
       duration: "2.5 months"
     },
     "venue": {
-      id: "data-dashboard",
-      title: "Data Visualization Dashboard",
-      category: "Data Visualization",
+      id: "venue",
+      title: "Holidaze",
+      category: "Booking Website",
       description: "An interactive analytics dashboard that transforms complex data into actionable insights through beautiful and intuitive visualizations.",
       detailedDescription: `This data visualization dashboard represents a sophisticated approach to business intelligence, combining powerful data processing capabilities with stunning visual presentations. Built with React and D3.js, it handles large datasets while maintaining smooth performance.
 
@@ -132,7 +132,7 @@ The dashboard features multiple chart types including line graphs, bar charts, h
 Real-time data updates ensure that stakeholders always have access to the latest information. The export functionality allows users to generate reports in various formats, making it easy to share insights with team members and clients.`,
       images: [
         {
-          url: "/api/placeholder/800/400",
+          url: "/public/media/venue/homepage.png",
           caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
         },
         {

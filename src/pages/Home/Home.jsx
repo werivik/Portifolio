@@ -42,7 +42,7 @@ const Home = () => {
       description: "A full-stack e-commerce solution built with React and Node.js, featuring user authentication, payment integration, and admin dashboard.",
       image: "/public/media/ecommerce/homepage.png",
       technologies: ["JavaScript", "HTML", "Tailwind", "Noroff API"],
-      category: "Frontend Development"
+      category: "E-commerce Website"
     },
     {
       id: "agency",
@@ -50,15 +50,15 @@ const Home = () => {
       description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
       image: "/public/media/agency/homepage.png",
       technologies: ["JavaScript", "HTML", "Tailwind", "Noroff API"],
-      category: "Frontend Development"
+      category: "Events Overview"
     },
     {
-      id: "Venue",
+      id: "venue",
       title: "Data Visualization Dashboard",
       description: "An interactive dashboard for data visualization and analytics, featuring dynamic charts, filters, and export capabilities.",
       image: "/public/media/venue/homepage.png",
       technologies: ["JavaScript", "HTML", "Tailwind", "Noroff API"],
-      category: "Frontend Development"
+      category: "Booking Website"
     }
   ];
 
@@ -92,10 +92,6 @@ const Home = () => {
             <div className={styles.stat}>
               <span className={styles.statNumber}>3</span>
               <span className={styles.statLabel}>Projects</span>
-            </div>
-            <div className={styles.stat}>
-              <span className={styles.statNumber}>12+</span>
-              <span className={styles.statLabel}>Technologies</span>
             </div>
             <div className={styles.stat}>
               <span className={styles.statNumber}>100%</span>
@@ -142,7 +138,6 @@ const Home = () => {
                 </div>
                 
                 <div className={styles.cardContent}>
-                  <div className={styles.cardCategory}>{project.category}</div>
                   <h3 className={styles.cardTitle}>{project.title}</h3>
                   <p className={styles.cardDescription}>{project.description}</p>
                   
