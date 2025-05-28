@@ -23,7 +23,8 @@ const Article = () => {
     technologies: value.technologies,
     category: value.category,
     dateCompleted: value.dateCompleted,
-    duration: value.duration
+    duration: value.duration,
+    goal: value.goal
   }));
 
   useEffect(() => {

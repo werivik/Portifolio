@@ -3,32 +3,53 @@
       id: "ecommerce-platform",
       title: "Nuvra",
       category: "E-commerce platform",
-      description: "A comprehensive e-commerce solution that revolutionizes online shopping experience with modern design patterns and robust functionality.",
-      detailedDescription: `Nuvra is a modern and responsive Ecommerce web application built for a school project to apply React.js concepts. The goal of this project was to design and develop a fully functional online shop using React, React Router and API intergration.
-      The application interacts with the Noroff Online Shop API to fetch products, display product listings and manage shopping cart functionality. The app allows users to browse products, view individual product details, add items to their cart and proceed through a checckout flow..`,
+      description: "Project Nuvra is a responsive eCommerce website built with React. It features dynamic product listings, cart functionality, and form validation, with routing managed through React Router. The project integrates with a live product API and demonstrates modern frontend development practices.",
+      detailedDescription: `Project Nuvra is a React-based eCommerce application designed to provide a seamless user shopping experience. The application interacts with a RESTful API to fetch product data, display individual product details, and handle cart operations. It includes five primary pages: Homepage, Product Page, Cart (Checkout) Page, Checkout Success Page, and a Contact Page. The Homepage lists all products and features a look-ahead (auto-complete) search bar that filters results in real-time. Each product has a dedicated Product Page displaying detailed information such as title, description, image, price (with discount calculations if applicable), and reviews.
+
+A global cart state is maintained, which is updated when users click "Add to Cart" on a product. This cart is shown in the Cart Page, listing selected items and showing a total price. Users can then proceed to checkout, which leads to the Checkout Success Page, where the order is confirmed and the cart is cleared.
+
+The Contact Page includes a fully validated form with fields for name, subject, email, and message body. On successful validation, the form data is logged to the console.
+
+Reusable UI components include a shared Layout component wrapping the Header and Footer, with a Cart Icon in the Header showing the total cart count. The project emphasizes modular code, clean structure, and responsiveness, ensuring it works across devices.`,
       images: [
         {
           url: "/public/media/ecommerce/homepage.png",
           caption: "Homepage of the e-commerce platform showcasing the modern product grid and navigation"
         },
         {
-          url: "/api/placeholder/800/400",
+          url: "/public/media/ecommerce/homepage2.png",
           caption: "Product detail page with image gallery and customer reviews"
         },
         {
-          url: "/api/placeholder/800/400",
+          url: "/public/media/ecommerce/homepage3.png",
           caption: "Shopping cart with real-time updates and secure checkout process"
         },
         {
-          url: "/api/placeholder/800/400",
+          url: "/public/media/ecommerce/products.png",
           caption: "Admin dashboard displaying analytics and inventory management"
         },
         {
-          url: "/api/placeholder/800/400",
+          url: "/public/media/ecommerce/product.png",
+          caption: "Mobile-responsive design showcasing seamless user experience"
+        },
+        {
+          url: "/public/media/ecommerce/cart.png",
+          caption: "Mobile-responsive design showcasing seamless user experience"
+        },
+        {
+          url: "/public/media/ecommerce/orderconfirmation.png",
+          caption: "Mobile-responsive design showcasing seamless user experience"
+        },
+        {
+          url: "/public/media/ecommerce/success.png",
+          caption: "Mobile-responsive design showcasing seamless user experience"
+        },        
+        {
+          url: "/public/media/ecommerce/contact.png",
           caption: "Mobile-responsive design showcasing seamless user experience"
         }
       ],
-      technologies: ["React", "HTML", "CSS", "JavaScript"],
+      technologies: ["React", "React Router DOM", "CSS Modules", "JavaScript", "Netlify", "HTML", "Noroff API"],
       liveUrl: "https://nuvra.netlify.app/",
       githubUrl: "https://github.com/werivik/Nuvra",
       challenges: [
@@ -38,10 +59,14 @@
         "Creating a responsive design that works on all devices"
       ],
       learnings: [
-        "Advanced React hooks and context management",
-        "Backend security best practices",
-        "Payment gateway integration",
-        "Database optimization techniques"
+        "React Fundamentals: Deepened understanding of components, props, state, and hooks",
+        "React Router: Gained hands-on experience with dynamic routing and URL parameters",
+        "API Integration: Learned how to fetch and display external data from a REST API",
+        "Global State Handling: Used useContext or useState for managing cart state across components",
+        "Form Validation: Implemented custom validation logic for form inputs using standard JavaScript",
+        "Responsive Design: Practiced creating mobile-friendly layouts using either CSS Modules or Styled Components",
+        "Code Organization: Improved folder structure and component reusability",
+        "Deployment: Learned how to build and deploy a React application using Netlify"
       ],
       improvements: [
         "Add real-time chat support for customers",
