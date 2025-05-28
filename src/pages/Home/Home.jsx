@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import styles from './Home.module.css';
 import { motion } from 'framer-motion';
+import { projectsData } from '../../projects';
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -35,32 +36,14 @@ const Home = () => {
     }
   };
 
-  const projects = [
-    {
-      id: "ecommerce",
-      title: "Nuvra",
-      description: "A full-stack e-commerce solution built with React and Node.js, featuring user authentication, payment integration, and admin dashboard.",
-      image: "/public/media/ecommerce/homepage.png",
-      technologies: ["JavaScript", "HTML", "Tailwind", "Noroff API"],
-      category: "E-commerce Website"
-    },
-    {
-      id: "agency",
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "/public/media/agency/homepage.png",
-      technologies: ["JavaScript", "HTML", "Tailwind", "Noroff API"],
-      category: "Events Overview"
-    },
-    {
-      id: "venue",
-      title: "Data Visualization Dashboard",
-      description: "An interactive dashboard for data visualization and analytics, featuring dynamic charts, filters, and export capabilities.",
-      image: "/public/media/venue/homepage.png",
-      technologies: ["JavaScript", "HTML", "Tailwind", "Noroff API"],
-      category: "Booking Website"
-    }
-  ];
+  const projects = Object.entries(projectsData).map(([key, value]) => ({
+    id: key,
+    title: value.title,
+    description: value.description,
+    image: value.images[0].url,
+    technologies: value.technologies,
+    category: value.category
+  }));
 
   return (
     <motion.div

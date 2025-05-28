@@ -2,6 +2,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import styles from './Article.module.css';
+import { projectsData } from '../../projects';
 
 const Article = () => {
   const { id } = useParams();
@@ -11,176 +12,19 @@ const Article = () => {
   const [copied, setCopied] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const projectsData = {
-    "ecommerce": {
-      id: "ecommerce-platform",
-      title: "E-Commerce Platform",
-      category: "Full Stack Development",
-      description: "A comprehensive e-commerce solution that revolutionizes online shopping experience with modern design patterns and robust functionality.",
-      detailedDescription: `This full-stack e-commerce platform represents a complete online shopping solution built from the ground up. The project showcases advanced React patterns, secure backend architecture, and seamless third-party integrations.
-
-The platform features a modern, responsive design that adapts beautifully across all devices. Users can browse products with advanced filtering options, manage their shopping cart with real-time updates, and complete purchases through a secure checkout process integrated with Stripe payment processing.
-
-The admin dashboard provides comprehensive store management capabilities, including inventory tracking, order management, customer analytics, and sales reporting. The backend is built with Node.js and Express, featuring JWT authentication, data validation, and optimized database queries.`,
-      images: [
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Homepage of the e-commerce platform showcasing the modern product grid and navigation"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Product detail page with image gallery and customer reviews"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Shopping cart with real-time updates and secure checkout process"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Admin dashboard displaying analytics and inventory management"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Mobile-responsive design showcasing seamless user experience"
-        }
-      ],
-      technologies: ["React", "Node.js", "MongoDB", "Stripe API", "JWT", "Express.js", "Tailwind CSS"],
-      liveUrl: "https://ecommerce-demo.netlify.app",
-      githubUrl: "https://github.com/yourusername/ecommerce-platform",
-      challenges: [
-        "Implementing secure payment processing with Stripe",
-        "Managing complex state across multiple components",
-        "Optimizing database queries for product searches",
-        "Creating a responsive design that works on all devices"
-      ],
-      learnings: [
-        "Advanced React hooks and context management",
-        "Backend security best practices",
-        "Payment gateway integration",
-        "Database optimization techniques"
-      ],
-      improvements: [
-        "Add real-time chat support for customers",
-        "Implement advanced analytics dashboard",
-        "Add multi-language support",
-        "Integrate with inventory management systems"
-      ],
-      dateCompleted: "December 2024",
-      duration: "3 months"
-    },
-    "agency": {
-      id: "task-management-app",
-      title: "Task Management App",
-      category: "Frontend Development",
-      description: "A collaborative task management application designed to enhance team productivity with real-time synchronization and intuitive user experience.",
-      detailedDescription: `This task management application addresses the growing need for efficient team collaboration in remote work environments. Built with Vue.js and Firebase, it provides real-time synchronization across all team members, ensuring everyone stays updated on project progress.
-
-The application features an intuitive drag-and-drop interface for task management, allowing users to easily move tasks between different stages of completion. Team members can collaborate through comments, file attachments, and real-time notifications.
-
-The Firebase integration provides seamless data synchronization, user authentication, and cloud storage for attachments. The responsive design ensures the application works perfectly on desktop, tablet, and mobile devices, enabling productivity from anywhere.`,
-      images: [
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Task board interface showing drag-and-drop functionality and team collaboration features"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Calendar view displaying project deadlines and milestone tracking"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Team collaboration workspace with real-time comments and notifications"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Mobile app interface optimized for on-the-go task management"
-        }
-      ],
-      technologies: ["Vue.js", "Firebase", "Vuetify", "WebSocket", "Cloud Functions", "Vue Router"],
-      liveUrl: "https://taskflow-app.netlify.app",
-      githubUrl: "https://github.com/yourusername/task-management-app",
-      challenges: [
-        "Implementing smooth drag-and-drop functionality",
-        "Managing real-time data synchronization",
-        "Creating responsive layouts for mobile devices",
-        "Handling offline functionality gracefully"
-      ],
-      learnings: [
-        "Vue.js ecosystem and component architecture",
-        "Firebase real-time database optimization",
-        "Progressive Web App development",
-        "User experience design principles"
-      ],
-      improvements: [
-        "Add time tracking functionality",
-        "Implement advanced reporting and analytics",
-        "Create custom workflow templates",
-        "Add integration with popular development tools"
-      ],
-      dateCompleted: "November 2024",
-      duration: "2.5 months"
-    },
-    "venue": {
-      id: "venue",
-      title: "Holidaze",
-      category: "Booking Website",
-      description: "An interactive analytics dashboard that transforms complex data into actionable insights through beautiful and intuitive visualizations.",
-      detailedDescription: `This data visualization dashboard represents a sophisticated approach to business intelligence, combining powerful data processing capabilities with stunning visual presentations. Built with React and D3.js, it handles large datasets while maintaining smooth performance.
-
-The dashboard features multiple chart types including line graphs, bar charts, heat maps, and custom visualizations. Users can interact with the data through filtering, zooming, and cross-chart highlighting. The Python/Flask backend processes data efficiently and provides RESTful APIs for the frontend.
-
-Real-time data updates ensure that stakeholders always have access to the latest information. The export functionality allows users to generate reports in various formats, making it easy to share insights with team members and clients.`,
-      images: [
-        {
-          url: "/public/media/venue/homepage.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Real-time analytics charts displaying live data streams and trends"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Custom D3.js visualizations for complex data relationships"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Export and reporting interface with multiple format options"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Mobile-optimized dashboard for data access on any device"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Administrative panel for data source management and user permissions"
-        }
-      ],
-      technologies: ["React", "D3.js", "Python", "Flask", "PostgreSQL", "Chart.js", "Material-UI"],
-      liveUrl: "https://data-insights-dashboard.netlify.app",
-      githubUrl: "https://github.com/yourusername/data-dashboard",
-      challenges: [
-        "Optimizing performance with large datasets",
-        "Creating custom D3.js visualizations",
-        "Implementing real-time data updates",
-        "Designing intuitive user interactions"
-      ],
-      learnings: [
-        "Advanced D3.js concepts and custom visualizations",
-        "Data processing and optimization techniques",
-        "Python Flask API development",
-        "Performance optimization for data-heavy applications"
-      ],
-      improvements: [
-        "Add machine learning predictions",
-        "Implement advanced filtering options",
-        "Create customizable dashboard layouts",
-        "Add collaborative features for team insights"
-      ],
-      dateCompleted: "January 2025",
-      duration: "4 months"
-    }
-  };
+  const projects = Object.entries(projectsData).map(([key, value]) => ({
+    id: key,
+    title: value.title,
+    description: value.description,
+    image: value.images[0].url,
+    design: value.design,
+    liveUrl: value.liveUrl,
+    githubUrl: value.githubUrl,
+    technologies: value.technologies,
+    category: value.category,
+    dateCompleted: value.dateCompleted,
+    duration: value.duration
+  }));
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
