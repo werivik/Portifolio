@@ -3,7 +3,7 @@
       id: "ecommerce-platform",
       title: "Nuvra",
       category: "E-commerce platform",
-      description: "Project Nuvra is a responsive eCommerce website built with React. It features dynamic product listings, cart functionality, and form validation, with routing managed through React Router. The project integrates with a live product API and demonstrates modern frontend development practices.",
+      description: "A Interactive E-Commerce website",
       detailedDescription: `Project Nuvra is a React-based eCommerce application designed to provide a seamless user shopping experience. The application interacts with a RESTful API to fetch product data, display individual product details, and handle cart operations. It includes five primary pages: Homepage, Product Page, Cart (Checkout) Page, Checkout Success Page, and a Contact Page. The Homepage lists all products and features a look-ahead (auto-complete) search bar that filters results in real-time. Each product has a dedicated Product Page displaying detailed information such as title, description, image, price (with discount calculations if applicable), and reviews.
 
 A global cart state is maintained, which is updated when users click "Add to Cart" on a product. This cart is shown in the Cart Page, listing selected items and showing a total price. Users can then proceed to checkout, which leads to the Checkout Success Page, where the order is confirmed and the cart is cleared.
@@ -78,10 +78,10 @@ Reusable UI components include a shared Layout component wrapping the Header and
       duration: "2 Weeks"
     },
     "agency": {
-      id: "task-management-app",
-      title: "Task Management App",
+      id: "agency",
+      title: "Event PLanner",
       category: "Frontend Development",
-      description: "A collaborative task management application designed to enhance team productivity with real-time synchronization and intuitive user experience.",
+      description: "A collaborative Event Planner to view and create local Events.",
       detailedDescription: `This task management application addresses the growing need for efficient team collaboration in remote work environments. Built with Vue.js and Firebase, it provides real-time synchronization across all team members, ensuring everyone stays updated on project progress.
 
 The application features an intuitive drag-and-drop interface for task management, allowing users to easily move tasks between different stages of completion. Team members can collaborate through comments, file attachments, and real-time notifications.

@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import styles from './Home.module.css';
 import { motion } from 'framer-motion';
 import { projectsData } from '../../projects';
+import heroImage from '../../../public/media/hero/me.jpg';
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -60,27 +61,14 @@ const Home = () => {
           animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 30 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
+        <div className={styles.leftHero}>
           <h1 className={styles.heroTitle}>
             Welcome to My <span className={styles.highlight}>Portfolio</span>
           </h1>
           <p className={styles.heroSubtitle}>
-            Showcasing my journey in web development through innovative projects and continuous learning
+            Showcasing my journey in web development
           </p>
-          <motion.div 
-            className={styles.heroStats}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: isVisible ? 1 : 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-          >
-            <div className={styles.stat}>
-              <span className={styles.statNumber}>3</span>
-              <span className={styles.statLabel}>Projects</span>
-            </div>
-            <div className={styles.stat}>
-              <span className={styles.statNumber}>100%</span>
-              <span className={styles.statLabel}>Passion</span>
-            </div>
-          </motion.div>
+        </div>
         </motion.div>
       </section>
 
@@ -137,33 +125,6 @@ const Home = () => {
           ))}
         </div>
       </section>
-
-      <motion.section 
-        className={styles.ctaSection}
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 30 }}
-        transition={{ duration: 0.8, delay: 0.8 }}
-      >
-        <div className={styles.ctaContent}>
-          <h2 className={styles.ctaTitle}>Ready to Collaborate?</h2>
-          <p className={styles.ctaText}>
-            I'm always open to discussing new opportunities and exciting projects
-          </p>
-          <div className={styles.ctaButtons}>
-            <a href="mailto:your.email@example.com" className={styles.ctaButton}>
-              Get In Touch
-            </a>
-            <a 
-              href="https://github.com/yourusername" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className={`${styles.ctaButton} ${styles.ctaButtonSecondary}`}
-            >
-              View GitHub
-            </a>
-          </div>
-        </div>
-      </motion.section>
     </motion.div>
   );
 };
