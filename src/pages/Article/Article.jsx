@@ -46,7 +46,7 @@ const Article = () => {
         setCurrentImageIndex((prevIndex) => 
           prevIndex === project.images.length - 1 ? 0 : prevIndex + 1
         );
-      }, 10000);
+      }, 60000);
 
       return () => clearInterval(interval);
     }
