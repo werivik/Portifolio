@@ -3,7 +3,9 @@ import { useEffect, useState } from 'react';
 import styles from './Home.module.css';
 import { motion } from 'framer-motion';
 import { projectsData } from '../../projects';
-import heroImage from '../../../public/media/hero/me.jpg';
+import mewithflag from '../../../public/media/hero/mewithflag.jpg';
+import chilli from '../../../public/media/hero/chilli.jpg';
+import kitty from '../../../public/media/hero/kitty.jpg';
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -61,12 +63,19 @@ const Home = () => {
           animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 30 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-        <div className={styles.leftHero}>
+        <div className={styles.hero}>
+          <div className={styles.heroImages}>
+            <div className={styles.heroTop}>            
+              <img src={mewithflag}></img>
+              <img src={kitty} className={styles.kitty}></img>
+            </div>
+            <img src={chilli} className={styles.heroBottom}></img>
+          </div>
           <h1 className={styles.heroTitle}>
             Welcome to My <span className={styles.highlight}>Portfolio</span>
           </h1>
           <p className={styles.heroSubtitle}>
-            Showcasing my journey in web development
+            Showcasing my journey in FED2
           </p>
         </div>
         </motion.div>
