@@ -172,31 +172,33 @@ const Article = () => {
         <div className={styles.imageContainer}>
           {project.images && project.images.length > 0 && (
             <div className={styles.slideshow}>
-
-              <div className={styles.imageWrapper}>
-                <img 
-                  src={currentImage.url} 
-                  alt={project.title}
-                  className={styles.mainImage}
-                />
-                
+              <div className={styles.slideshowWrapper}>
                 {project.images.length > 1 && (
-                  <>
-                    <button
-                      className={`${styles.navButton} ${styles.navButtonPrev}`}
-                      onClick={handlePreviousImage}
-                      aria-label="Previous image"
-                    >
-                      &#8249;
-                    </button>
-                    <button
-                      className={`${styles.navButton} ${styles.navButtonNext}`}
-                      onClick={handleNextImage}
-                      aria-label="Next image"
-                    >
-                      &#8250;
-                    </button>
-                  </>
+                  <button
+                    className={`${styles.navButton} ${styles.navButtonPrev}`}
+                    onClick={handlePreviousImage}
+                    aria-label="Previous image"
+                  >
+                    &#8249;
+                  </button>
+                )}
+
+                <div className={styles.imageWrapper}>
+                  <img 
+                    src={currentImage.url} 
+                    alt={project.title}
+                    className={styles.mainImage}
+                  />
+                </div>
+
+                {project.images.length > 1 && (
+                  <button
+                    className={`${styles.navButton} ${styles.navButtonNext}`}
+                    onClick={handleNextImage}
+                    aria-label="Next image"
+                  >
+                    &#8250;
+                  </button>
                 )}
               </div>
 
@@ -270,17 +272,6 @@ const Article = () => {
               {project.learnings.map((learning, index) => (
                 <li key={index} className={styles.listItem}>
                   {learning}
-                </li>
-              ))}
-            </ul>
-          </section>
-
-          <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Future Improvements</h2>
-            <ul className={styles.list}>
-              {project.improvements.map((improvement, index) => (
-                <li key={index} className={styles.listItem}>
-                  {improvement}
                 </li>
               ))}
             </ul>
