@@ -286,20 +286,18 @@ const Article = () => {
           </Link>
           <div className={styles.footerLinks}>
             <a 
-              href={project.liveUrl} 
               target="_blank" 
               rel="noopener noreferrer"
               className={styles.footerLink}
             >
-              Live Demo
+              Previous Project
             </a>
             <a 
-              href={project.githubUrl} 
               target="_blank" 
               rel="noopener noreferrer"
               className={styles.footerLink}
             >
-              Source Code
+              Next Project
             </a>
           </div>
         </div>
