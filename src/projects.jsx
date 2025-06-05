@@ -102,6 +102,18 @@ The Firebase integration provides seamless data synchronization, user authentica
       technologies: ["Vue.js", "Firebase", "React", "CSS", "HTML", "JavaScript"],
       liveUrl: "https://thespot-agency.netlify.app/",
       githubUrl: "https://github.com/werivik/Agency2",
+            design: `
+        The design features a contemporary, geometric aesthetic complemented by natural elements to evoke a sense of tranquility and harmony. The background is a soft, calming beige, subtly overlaid with the shadow of a tree to reinforce the organic theme and provide visual interest without distraction.
+The color palette is intentionally soothing, consisting of muted tones such as beige, soft green, warm yellow, and clean white. These colors are carefully selected to create a serene browsing experience, encouraging visitors to stay engaged with the website content. Overall, the design balances modern minimalism with a touch of nature, fostering a welcoming and relaxed digital environment.`
+      ,
+colorScheme: [
+  "#2B266F", 
+  "#FCFBF6", 
+  "#E07A5F", 
+],
+      fonts: [
+        "Segoe UI"
+      ],
       challenges: [
         "Managing real-time data synchronization",
         "Creating responsive layouts for mobile devices"
@@ -127,12 +139,55 @@ The Firebase integration provides seamless data synchronization, user authentica
         {
           url: "/public/media/venue/homepage.png",
           caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
-        }
+        },
+        {
+          url: "/public/media/venue/homepage.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/homepage.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/homepage.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/homepage.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/homepage.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/homepage.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/homepage.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/homepage.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
       ],
       technologies: ["React", "HTML", "JavaScript", "Framer Motion", "CSS", "Vite"],
       liveUrl: "https://werivik-holidaze.netlify.app/",
       githubUrl: "https://github.com/werivik/exam2025",
-      Design: [
+      design: `
+        The design features a contemporary, geometric aesthetic complemented by natural elements to evoke a sense of tranquility and harmony. The background is a soft, calming beige, subtly overlaid with the shadow of a tree to reinforce the organic theme and provide visual interest without distraction.
+The color palette is intentionally soothing, consisting of muted tones such as beige, soft green, warm yellow, and clean white. These colors are carefully selected to create a serene browsing experience, encouraging visitors to stay engaged with the website content. Overall, the design balances modern minimalism with a touch of nature, fostering a welcoming and relaxed digital environment.`
+      ,
+colorScheme: [
+  "1F1B17", 
+  "#F3F0EB", 
+  "#B88A44", 
+  "#6B7A3A"
+],
+      fonts: [
+        "Playfair Display", "Judson", "Source Serif 4"
       ],
       challenges: [
       ],
