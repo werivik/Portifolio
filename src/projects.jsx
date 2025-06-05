@@ -356,8 +356,18 @@ colorScheme: [
         "Playfair Display", "Judson", "Source Serif 4"
       ],
       challenges: [
+        'During the development of Holidaze, one of the main challenges was aligning the intended design and feature set with the limitations of the provided Noroff API. While the original vision included several dynamic and engaging features, certain technical constraints required creative problem-solving and flexibility in decision-making.',
+        `1. Rating System Limitation
+A key feature I wanted to implement was a user-based rating system for venues. However, the API only permits venue owners to modify the rating of their own listings, which made a universal rating system unfeasible. Rather than removing the concept entirely, I opted to implement a local rating system—allowing logged-in users to rate venues for their own reference. These ratings are stored locally and visible only to the user, preserving the experience of interaction and evaluation without violating API constraints.`,
+`2. Username Editing
+Another limitation was the inability to update usernames via the API. To maintain a consistent and bug-free user experience, I decided to remove the username editing feature altogether. This avoided unnecessary confusion and ensured the profile editing functionality remained smooth and reliable.`,
+`3. Admin Bio Section
+Initially, I planned to include a bio section for Admin (Venue Manager) profiles to provide more personality and context for each venue owner. However, since most users in the provided API dataset did not include bios, the section would often appear empty. To maintain a clean and meaningful design, I chose to eliminate the bio concept entirely.`,
+`4. Hero Section Video on Homepage
+To add a “wow” factor on the homepage, I designed a Hero section featuring a background video to create an immersive first impression. Unfortunately, due to transition effects and performance limitations, the video playback became laggy. As this issue emerged late in the development process, there was not enough time for a full optimization or redesign. Ultimately, I chose to keep the video despite the performance issue, accepting the trade-off to preserve the visual intent of the homepage.`,
       ],
       learnings: [
+        "Adapting Design to API Constraints", "Creative Problem-Solving", "Practical Use of React and React Router", "Design-Development Consistency"
       ],
       dateCompleted: "May 2025",
       duration: "6 Weeks"
