@@ -141,37 +141,136 @@ colorScheme: [
           caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
         },
         {
-          url: "/public/media/venue/homepage.png",
+          url: "/public/media/venue/homepage2.png",
           caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
         },
         {
-          url: "/public/media/venue/homepage.png",
+          url: "/public/media/venue/homepage3.png",
           caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
         },
         {
-          url: "/public/media/venue/homepage.png",
+          url: "/public/media/venue/homepage4.png",
           caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
         },
         {
-          url: "/public/media/venue/homepage.png",
+          url: "/public/media/venue/homepage5.png",
           caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
         },
         {
-          url: "/public/media/venue/homepage.png",
+          url: "/public/media/venue/homepage6.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+
+
+
+        {
+          url: "/public/media/venue/venues.png",
           caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
         },
         {
-          url: "/public/media/venue/homepage.png",
+          url: "/public/media/venue/venues2.png",
           caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
         },
         {
-          url: "/public/media/venue/homepage.png",
+          url: "/public/media/venue/venue.png",
           caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
         },
         {
-          url: "/public/media/venue/homepage.png",
+          url: "/public/media/venue/venue2.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },  
+        {
+          url: "/public/media/venue/venue3.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },  
+        {
+          url: "/public/media/venue/venuecostumer.png",
           caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
         },
+        {
+          url: "/public/media/venue/venueowner.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/venueowner2.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/register.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },  
+        {
+          url: "/public/media/venue/login.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },  
+        {
+          url: "/public/media/venue/costumerprofile.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        }, 
+        {
+          url: "/public/media/venue/costumerprofile2.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/venuepopup.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        }, 
+        {
+          url: "/public/media/venue/registeradmin.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/loginadmin.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/adminprofile.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/adminprofile2.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/adminpopup.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/edit.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/edit2.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/create.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/about.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/about2.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/about3.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/about4.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/contact.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/venue/contact2.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },                
       ],
       technologies: ["React", "HTML", "JavaScript", "Framer Motion", "CSS", "Vite"],
       liveUrl: "https://werivik-holidaze.netlify.app/",
