@@ -90,10 +90,13 @@ colorScheme: [
       title: "The Spot",
       category: "Event Planner",
       description: "A collaborative Event Planner to view and create local Events.",
-      detailedDescription: `This design was developed as part of a collaborative team exercise. We utilized multiple GitHub and Visual Studio Code branches to manage our workflow effectively, ensuring smooth integration of each team member's contributions. The visual style features a bold, rounded aesthetic, with large images displayed prominently to immediately capture the user's attention. A thoughtfully selected color palette of blue and salmon pink enhances visual engagement and user interest.
+      detailedDescription: `This event management application was developed as part of the Noroff FED2 Agency project to address the need for streamlined event discovery and organization. Built with Vue.js and Firebase, the platform offers real-time functionality, including user authentication, dynamic content updates, and cloud-based data storage.
 
-To create a cohesive and modern interface, all elements feature smoothly rounded corners, contributing to an overall polished appearance. Typography and layout were carefully considered to ensure content is both readable and accessible to a wide range of users. Additionally, we integrated a real-time database using Firebase, enabling dynamic content updates and seamless data synchronization across the application.
-This project was developed as part of the Noroff FED2 Agency project.`,
+The application includes a user-friendly homepage featuring a curated list of upcoming events sorted by date, with a convenient filtering option based on event categories such as cocktails, nature, and more. A dedicated "All Events" page allows users to browse a comprehensive list of upcoming events.
+
+Users can register, log in, and access their profile pages, where they have the ability to create new events or edit existing ones. The Firebase integration ensures smooth synchronization of data across the application and provides secure user authentication.
+
+Designed with a fully responsive layout, the application delivers an optimal user experience across desktop, tablet, and mobile devices—enabling users to discover, manage, and share events from anywhere.`,
       images: [
         {
           url: "/public/media/agency/homepage.png",
@@ -163,7 +166,9 @@ This project was developed as part of the Noroff FED2 Agency project.`,
       technologies: ["Vue.js", "Firebase", "React", "CSS", "HTML", "JavaScript"],
       liveUrl: "https://thespot-agency.netlify.app/",
       githubUrl: "https://github.com/werivik/Agency2",
-            design: ``
+      design: `This design was developed as part of a collaborative team exercise. We utilized multiple GitHub and Visual Studio Code branches to manage our workflow effectively, ensuring smooth integration of each team member's contributions. The visual style features a bold, rounded aesthetic, with large images displayed prominently to immediately capture the user's attention. A thoughtfully selected color palette of blue and salmon pink enhances visual engagement and user interest.
+
+To create a cohesive and modern interface, all elements feature smoothly rounded corners, contributing to an overall polished appearance. Typography and layout were carefully considered to ensure content is both readable and accessible to a wide range of users. Additionally, we integrated a real-time database using Firebase, enabling dynamic content updates and seamless data synchronization across the application.`
       ,
 colorScheme: [
   "#2B266F", 
@@ -193,8 +198,13 @@ colorScheme: [
       title: "Holidaze",
       category: "Booking Website",
       description: "An interactive Booking website to view and Create Venues.",
-      detailedDescription: `Holidaze is a modern accommodation booking website that allows users to search for venues, make bookings and manage their bookings through their profile page. Users can become Venue Managers to create, edit and delete their venues. The platform is built with a focus on a clean, responsive layout with a smooth user experience.
-      This project was developed as part of the Noroff FED2 exam project to demonstrate planning, design, development, and deployment skills.`,
+      detailedDescription: `Holidaze is a modern accommodation booking platform developed as part of the Noroff FED2 exam project, designed to showcase end-to-end skills in planning, design, development, and deployment. Built using React, React Router (react-router-dom), JavaScript, HTML, and CSS Modules, the application integrates with the official Noroff API to manage data and bookings.
+
+The platform allows unregistered users to browse the homepage, view all available venues, apply filters, and explore detailed venue information. However, only registered users can access booking-related features. Logged-in users have access to a personalized profile page where they can update their avatar and banner, view upcoming, current, and past bookings, as well as edit or cancel upcoming reservations. Additionally, users can rate venues they’ve stayed at, contributing to the platform’s community feedback system.
+
+Admin users, referred to as Venue Managers, have the ability to create, edit, and delete their own venues but cannot book venues themselves, maintaining the separation between venue managers and customers. All users, regardless of login status, can access general information through the "About" and "Contact Us" pages.
+
+Holidaze is built with a focus on clean, responsive design and delivers a seamless user experience across desktop and mobile devices. The application demonstrates strong front-end development principles, thoughtful user experience design, and effective use of a third-party API.`,
       images: [
         {
           url: "/public/media/venue/homepage.png",
@@ -332,9 +342,9 @@ colorScheme: [
       technologies: ["React", "HTML", "JavaScript", "Framer Motion", "CSS", "Vite"],
       liveUrl: "https://werivik-holidaze.netlify.app/",
       githubUrl: "https://github.com/werivik/exam2025",
-      design: `
-        The design features a contemporary, geometric aesthetic complemented by natural elements to evoke a sense of tranquility and harmony. The background is a soft, calming beige, subtly overlaid with the shadow of a tree to reinforce the organic theme and provide visual interest without distraction.
-The color palette is intentionally soothing, consisting of muted tones such as beige, soft green, warm yellow, and clean white. These colors are carefully selected to create a serene browsing experience, encouraging visitors to stay engaged with the website content. Overall, the design balances modern minimalism with a touch of nature, fostering a welcoming and relaxed digital environment.`
+      design: `The Holidaze platform features a modern, calm, and welcoming design aimed at creating a comfortable and engaging experience for users. The overall aesthetic is clean and refined, with a soft beige background that sets a neutral, relaxing tone. Accent colors—gold, green, and a deep, nearly black shade of dark beige—are used strategically for buttons and interactive elements to draw attention without overwhelming the user.
+      The layout is based on a geometric structure, combining clarity with elegance. Key sections are divided into left and right alignments: the left side typically contains functional titles (e.g., "Our Most Beloved Destinations"), while the right side features inspirational quotes (e.g., "The world is a book, and those who do not travel read only one page") to emotionally connect with users and encourage exploration.
+      The design is fully responsive and optimized for accessibility, ensuring a seamless experience across all devices. Whether browsing from a desktop or mobile device, users enjoy a thoughtfully crafted interface that balances visual appeal with usability.`
       ,
 colorScheme: [
   "1F1B17", 
