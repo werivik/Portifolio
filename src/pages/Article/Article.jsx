@@ -27,7 +27,6 @@ const Article = () => {
     goal: value.goal
   }));
 
-  // Get current project index and adjacent projects
   const currentProjectIndex = projects.findIndex(p => p.id === id);
   const previousProject = currentProjectIndex > 0 ? projects[currentProjectIndex - 1] : null;
   const nextProject = currentProjectIndex < projects.length - 1 ? projects[currentProjectIndex + 1] : null;
@@ -45,7 +44,6 @@ const Article = () => {
     setLoading(false);
   }, [id, navigate]);
 
-  // Removed the automatic slideshow useEffect - slideshow now only changes on user interaction
 
   const handleCopyLink = async () => {
     try {
