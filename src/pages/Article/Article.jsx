@@ -283,13 +283,20 @@ const Article = () => {
 
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Color Scheme</h2>
-            <ul className={styles.list}>
-              {project.colorScheme.map((colorScheme, index) => (
-                <span key={index} className={styles.techTag}>
-                  {colorScheme}
-                </span>
+            <div className={styles.colorGrid}>
+              {project.colorScheme.map((color, index) => (
+                <div key={index} className={styles.colorBox}>
+                  <div 
+                    className={styles.colorCircle}
+                    style={{ 
+                      background: color.startsWith('linear-gradient') ? color : color,
+                      backgroundColor: color.startsWith('linear-gradient') ? 'transparent' : color
+                    }}
+                  ></div>
+                  <span className={styles.colorLabel}>{color}</span>
+                </div>
               ))}
-            </ul>
+            </div>
           </section>
 
           <section className={styles.section}>

@@ -54,9 +54,13 @@ The Contact Page includes a fully validated form with fields for name, subject, 
         The design features a contemporary, geometric aesthetic complemented by natural elements to evoke a sense of tranquility and harmony. The background is a soft, calming beige, subtly overlaid with the shadow of a tree to reinforce the organic theme and provide visual interest without distraction.
 The color palette is intentionally soothing, consisting of muted tones such as beige, soft green, warm yellow, and clean white. These colors are carefully selected to create a serene browsing experience, encouraging visitors to stay engaged with the website content. Overall, the design balances modern minimalism with a touch of nature, fostering a welcoming and relaxed digital environment.`
       ,
-      colorScheme: [
-        "#282c34", "#f4ae2c", "#FFFFF", "#bfd0a8"
-      ],
+colorScheme: [
+  "#282c34", 
+  "#f4ae2c", 
+  "#FFFFFF", 
+  "#bfd0a8",
+  "linear-gradient(0deg, rgba(225,220,210,1) 0%, rgba(246,242,233,1) 48%, rgba(244,244,244,1) 100%)"
+],
       fonts: [
         "Playfair Display", "Abril Fatface"
       ],
