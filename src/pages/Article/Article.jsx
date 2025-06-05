@@ -27,6 +27,11 @@ const Article = () => {
     goal: value.goal
   }));
 
+  // Get current project index and adjacent projects
+  const currentProjectIndex = projects.findIndex(p => p.id === id);
+  const previousProject = currentProjectIndex > 0 ? projects[currentProjectIndex - 1] : null;
+  const nextProject = currentProjectIndex < projects.length - 1 ? projects[currentProjectIndex + 1] : null;
+
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     
@@ -134,7 +139,6 @@ const Article = () => {
         <div className={styles.headerContent}>
           <span className={styles.category}>{project.category}</span>
           <h1 className={styles.title}>{project.title}</h1>
-          <p className={styles.subtitle}>{project.description}</p>
           
           <div className={styles.projectMeta}>
             <div className={styles.metaItem}>
@@ -284,21 +288,27 @@ const Article = () => {
           <Link to="/" className={styles.footerButton}>
             ← View All Projects
           </Link>
-          <div className={styles.footerLinks}>
-            <a 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className={styles.footerLink}
-            >
-              Previous Project
-            </a>
-            <a 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className={styles.footerLink}
-            >
-              Next Project
-            </a>
+          
+          <div className={styles.projectNavigation}>
+            {previousProject && (
+              <Link 
+                to={`/article/${previousProject.id}`}
+                className={styles.projectNavCard}
+              >
+                <span className={styles.navLabel}></span>
+                <span className={styles.navTitle}>{previousProject.title}</span>
+              </Link>
+            )}
+            
+            {nextProject && (
+              <Link 
+                to={`/article/${nextProject.id}`}
+                className={styles.projectNavCard}
+              >
+                <span className={styles.navLabel}></span>
+                <span className={styles.navTitle}>{nextProject.title}</span>
+              </Link>
+            )}
           </div>
         </div>
       </footer>

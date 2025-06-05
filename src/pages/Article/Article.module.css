@@ -504,6 +504,109 @@
   box-shadow: 0 4px 15px rgba(43, 47, 108, 0.3);
 }
 
+.projectNavigation {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projectNavCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background: linear-gradient(135deg, rgba(222, 151, 143, 0.05) 0%, rgba(193, 127, 139, 0.05) 100%);
+  border: 2px solid rgba(222, 151, 143, 0.2);
+  border-radius: 25px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 220px;
+  box-shadow: 0 8px 25px rgba(193, 127, 139, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.projectNavCard::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(222, 151, 143, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.projectNavCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 40px rgba(193, 127, 139, 0.25);
+  border-color: rgba(193, 127, 139, 0.4);
+  background: linear-gradient(135deg, rgba(222, 151, 143, 0.1) 0%, rgba(193, 127, 139, 0.1) 100%);
+}
+
+.projectNavCard:hover::before {
+  opacity: 1;
+}
+
+.navLabel {
+  font-size: 0.875rem;
+  color: #C17F8B;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  position: relative;
+  z-index: 1;
+}
+
+.navTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2B2F6C;
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .projectNavigation {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .projectNavCard {
+    width: 100%;
+    max-width: 300px;
+    min-width: auto;
+    padding: 1.25rem 1.5rem;
+  }
+  
+  .navLabel {
+    font-size: 0.8rem;
+  }
+  
+  .navTitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projectNavCard {
+    padding: 1rem 1.25rem;
+  }
+  
+  .navTitle {
+    font-size: 0.95rem;
+  }
+}
+
 @media (max-width: 768px) {
   .navigation {
     padding: 1.5rem 1rem;
