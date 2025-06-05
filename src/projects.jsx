@@ -8,7 +8,8 @@
 
 A global cart state is maintained, which is updated when users click "Add to Cart" on a product. This cart is shown in the Cart Page, listing selected items and showing a total price. Users can then proceed to checkout, which leads to the Checkout Success Page, where the order is confirmed and the cart is cleared.
 
-The Contact Page includes a fully validated form with fields for name, subject, email, and message body. On successful validation, the form data is logged to the console.`,
+The Contact Page includes a fully validated form with fields for name, subject, email, and message body. On successful validation, the form data is logged to the console
+This project was developed as part of the Noroff FED2 JavaScript2 project.`,
       images: [
         {
           url: "/public/media/ecommerce/homepage.png",
@@ -86,14 +87,13 @@ colorScheme: [
 
     "agency": {
       id: "agency",
-      title: "Event PLanner",
-      category: "Frontend Development",
+      title: "The Spot",
+      category: "Event Planner",
       description: "A collaborative Event Planner to view and create local Events.",
-      detailedDescription: `This task management application addresses the growing need for efficient team collaboration in remote work environments. Built with Vue.js and Firebase, it provides real-time synchronization across all team members, ensuring everyone stays updated on project progress.
+      detailedDescription: `This design was developed as part of a collaborative team exercise. We utilized multiple GitHub and Visual Studio Code branches to manage our workflow effectively, ensuring smooth integration of each team member's contributions. The visual style features a bold, rounded aesthetic, with large images displayed prominently to immediately capture the user's attention. A thoughtfully selected color palette of blue and salmon pink enhances visual engagement and user interest.
 
-The application features an intuitive drag-and-drop interface for task management, allowing users to easily move tasks between different stages of completion. Team members can collaborate through comments, file attachments, and real-time notifications.
-
-The Firebase integration provides seamless data synchronization, user authentication, and cloud storage for attachments. The responsive design ensures the application works perfectly on desktop, tablet, and mobile devices, enabling productivity from anywhere.`,
+To create a cohesive and modern interface, all elements feature smoothly rounded corners, contributing to an overall polished appearance. Typography and layout were carefully considered to ensure content is both readable and accessible to a wide range of users. Additionally, we integrated a real-time database using Firebase, enabling dynamic content updates and seamless data synchronization across the application.
+This project was developed as part of the Noroff FED2 Agency project.`,
       images: [
         {
           url: "/public/media/agency/homepage.png",
@@ -163,9 +163,7 @@ The Firebase integration provides seamless data synchronization, user authentica
       technologies: ["Vue.js", "Firebase", "React", "CSS", "HTML", "JavaScript"],
       liveUrl: "https://thespot-agency.netlify.app/",
       githubUrl: "https://github.com/werivik/Agency2",
-            design: `
-        The design features a contemporary, geometric aesthetic complemented by natural elements to evoke a sense of tranquility and harmony. The background is a soft, calming beige, subtly overlaid with the shadow of a tree to reinforce the organic theme and provide visual interest without distraction.
-The color palette is intentionally soothing, consisting of muted tones such as beige, soft green, warm yellow, and clean white. These colors are carefully selected to create a serene browsing experience, encouraging visitors to stay engaged with the website content. Overall, the design balances modern minimalism with a touch of nature, fostering a welcoming and relaxed digital environment.`
+            design: ``
       ,
 colorScheme: [
   "#2B266F", 
