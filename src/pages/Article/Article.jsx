@@ -260,6 +260,39 @@ const Article = () => {
           </section>
 
           <section className={styles.section}>
+            <h2 className={styles.sectionTitle}>Design</h2>
+            <div className={styles.description}>
+              {project.design.split('\n\n').map((paragraph, index) => (
+                <p key={index} className={styles.paragraph}>
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+          </section>
+
+          <section className={styles.section}>
+            <h2 className={styles.sectionTitle}>Fonts</h2>
+            <ul className={styles.list}>
+              {project.fonts.map((fonts, index) => (
+                <li key={index} className={styles.listItem}>
+                  {fonts}
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          <section className={styles.section}>
+            <h2 className={styles.sectionTitle}>Color Scheme</h2>
+            <ul className={styles.list}>
+              {project.colorScheme.map((colorScheme, index) => (
+                <span key={index} className={styles.techTag}>
+                  {colorScheme}
+                </span>
+              ))}
+            </ul>
+          </section>
+
+          <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Challenges & Solutions</h2>
             <ul className={styles.list}>
               {project.challenges.map((challenge, index) => (

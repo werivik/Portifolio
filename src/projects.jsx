@@ -8,9 +8,7 @@
 
 A global cart state is maintained, which is updated when users click "Add to Cart" on a product. This cart is shown in the Cart Page, listing selected items and showing a total price. Users can then proceed to checkout, which leads to the Checkout Success Page, where the order is confirmed and the cart is cleared.
 
-The Contact Page includes a fully validated form with fields for name, subject, email, and message body. On successful validation, the form data is logged to the console.
-
-Reusable UI components include a shared Layout component wrapping the Header and Footer, with a Cart Icon in the Header showing the total cart count. The project emphasizes modular code, clean structure, and responsiveness, ensuring it works across devices.`,
+The Contact Page includes a fully validated form with fields for name, subject, email, and message body. On successful validation, the form data is logged to the console.`,
       images: [
         {
           url: "/public/media/ecommerce/homepage.png",
@@ -52,9 +50,17 @@ Reusable UI components include a shared Layout component wrapping the Header and
       technologies: ["React", "React Router DOM", "CSS Modules", "JavaScript", "Netlify", "HTML", "Noroff API"],
       liveUrl: "https://nuvra.netlify.app/",
       githubUrl: "https://github.com/werivik/Nuvra",
+      design: `
+        The design features a contemporary, geometric aesthetic complemented by natural elements to evoke a sense of tranquility and harmony. The background is a soft, calming beige, subtly overlaid with the shadow of a tree to reinforce the organic theme and provide visual interest without distraction.
+The color palette is intentionally soothing, consisting of muted tones such as beige, soft green, warm yellow, and clean white. These colors are carefully selected to create a serene browsing experience, encouraging visitors to stay engaged with the website content. Overall, the design balances modern minimalism with a touch of nature, fostering a welcoming and relaxed digital environment.`
+      ,
+      colorScheme: [
+        "#282c34", "#f4ae2c", "#FFFFF", "#bfd0a8"
+      ],
+      fonts: [
+        "Playfair Display", "Abril Fatface"
+      ],
       challenges: [
-        "Implementing secure payment processing with Stripe",
-        "Managing complex state across multiple components",
         "Optimizing database queries for product searches",
         "Creating a responsive design that works on all devices"
       ],
@@ -62,17 +68,13 @@ Reusable UI components include a shared Layout component wrapping the Header and
         "React Fundamentals: Deepened understanding of components, props, state, and hooks",
         "React Router: Gained hands-on experience with dynamic routing and URL parameters",
         "API Integration: Learned how to fetch and display external data from a REST API",
-        "Global State Handling: Used useContext or useState for managing cart state across components",
         "Form Validation: Implemented custom validation logic for form inputs using standard JavaScript",
-        "Responsive Design: Practiced creating mobile-friendly layouts using either CSS Modules or Styled Components",
+        "Responsive Design: Practiced creating mobile-friendly layouts",
         "Code Organization: Improved folder structure and component reusability",
         "Deployment: Learned how to build and deploy a React application using Netlify"
       ],
       improvements: [
-        "Add real-time chat support for customers",
-        "Implement advanced analytics dashboard",
-        "Add multi-language support",
-        "Integrate with inventory management systems"
+        "Implement reusable Components"
       ],
       dateCompleted: "March 2025",
       duration: "2 Weeks"
@@ -91,40 +93,21 @@ The Firebase integration provides seamless data synchronization, user authentica
         {
           url: "/public/media/agency/homepage.png",
           caption: "Task board interface showing drag-and-drop functionality and team collaboration features"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Calendar view displaying project deadlines and milestone tracking"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Team collaboration workspace with real-time comments and notifications"
-        },
-        {
-          url: "/api/placeholder/800/400",
-          caption: "Mobile app interface optimized for on-the-go task management"
         }
       ],
       technologies: ["Vue.js", "Firebase", "React", "CSS", "HTML", "JavaScript"],
       liveUrl: "https://thespot-agency.netlify.app/",
       githubUrl: "https://github.com/werivik/Agency2",
       challenges: [
-        "Implementing smooth drag-and-drop functionality",
         "Managing real-time data synchronization",
-        "Creating responsive layouts for mobile devices",
-        "Handling offline functionality gracefully"
+        "Creating responsive layouts for mobile devices"
       ],
       learnings: [
-        "Vue.js ecosystem and component architecture",
         "Firebase real-time database optimization",
-        "Progressive Web App development",
-        "User experience design principles"
+        "Teamwork with multiple Branches"
       ],
       improvements: [
-        "Add time tracking functionality",
-        "Implement advanced reporting and analytics",
-        "Create custom workflow templates",
-        "Add integration with popular development tools"
+        "Add reusable UI Components"
       ],
       dateCompleted: "April 2025",
       duration: "4 Weeks"
