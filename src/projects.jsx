@@ -83,6 +83,7 @@ colorScheme: [
       dateCompleted: "March 2025",
       duration: "2 Weeks"
     },
+
     "agency": {
       id: "agency",
       title: "Event PLanner",
@@ -97,7 +98,67 @@ The Firebase integration provides seamless data synchronization, user authentica
         {
           url: "/public/media/agency/homepage.png",
           caption: "Task board interface showing drag-and-drop functionality and team collaboration features"
-        }
+        },
+        {
+          url: "/public/media/agency/homepage2.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/homepage3.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/homepage4.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/homepage5.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/events.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/events2.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/event.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/loginoptions.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/register.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/login.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/profile.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/create.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/create2.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/about.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
+        {
+          url: "/public/media/agency/contact.png",
+          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+        },
       ],
       technologies: ["Vue.js", "Firebase", "React", "CSS", "HTML", "JavaScript"],
       liveUrl: "https://thespot-agency.netlify.app/",
@@ -128,6 +189,7 @@ colorScheme: [
       dateCompleted: "April 2025",
       duration: "4 Weeks"
     },
+
     "venue": {
       id: "venue",
       title: "Holidaze",
@@ -160,9 +222,6 @@ colorScheme: [
           url: "/public/media/venue/homepage6.png",
           caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
         },
-
-
-
         {
           url: "/public/media/venue/venues.png",
           caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
