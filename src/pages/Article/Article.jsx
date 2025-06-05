@@ -45,17 +45,7 @@ const Article = () => {
     setLoading(false);
   }, [id, navigate]);
 
-  useEffect(() => {
-    if (project && project.images && project.images.length > 1) {
-      const interval = setInterval(() => {
-        setCurrentImageIndex((prevIndex) => 
-          prevIndex === project.images.length - 1 ? 0 : prevIndex + 1
-        );
-      }, 60000);
-
-      return () => clearInterval(interval);
-    }
-  }, [project]);
+  // Removed the automatic slideshow useEffect - slideshow now only changes on user interaction
 
   const handleCopyLink = async () => {
     try {
