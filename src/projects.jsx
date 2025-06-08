@@ -85,6 +85,7 @@ colorScheme: [
       duration: "2 Weeks"
     },
 
+    /*
     "agency": {
       id: "agency",
       title: "The Spot",
@@ -169,6 +170,87 @@ Designed with a fully responsive layout, the application delivers an optimal use
       design: `This design was developed as part of a collaborative team exercise. We utilized multiple GitHub and Visual Studio Code branches to manage our workflow effectively, ensuring smooth integration of each team member's contributions. The visual style features a bold, rounded aesthetic, with large images displayed prominently to immediately capture the user's attention. A thoughtfully selected color palette of blue and salmon pink enhances visual engagement and user interest.
 
 To create a cohesive and modern interface, all elements feature smoothly rounded corners, contributing to an overall polished appearance. Typography and layout were carefully considered to ensure content is both readable and accessible to a wide range of users. Additionally, we integrated a real-time database using Firebase, enabling dynamic content updates and seamless data synchronization across the application.`
+      ,
+colorScheme: [
+  "#2B266F", 
+  "#FCFBF6", 
+  "#E07A5F", 
+],
+      fonts: [
+        "Segoe UI"
+      ],
+      challenges: [
+        "Managing real-time data synchronization",
+        "Creating responsive layouts for mobile devices"
+      ],
+      learnings: [
+        "Firebase real-time database optimization",
+        "Teamwork with multiple Branches"
+      ],
+      improvements: [
+        "Add reusable UI Components"
+      ],
+      dateCompleted: "April 2025",
+      duration: "4 Weeks"
+    },
+    */
+
+    "semester": {
+      id: "semester",
+      title: "Aucti",
+      category: "Bidding Website",
+      description: "A interactive Auction website",
+      detailedDescription: ``,
+      images: [
+        {
+          url: "/public/media/semester/homepage.png",
+          caption: ""
+        },
+        {
+          url: "/public/media/semester/homepage2.png",
+          caption: ""
+        },
+        {
+          url: "/public/media/semester/homepage3.png",
+          caption: ""
+        },
+        {
+          url: "/public/media/semester/register.png",
+          caption: ""
+        },
+        {
+          url: "/public/media/semester/login.png",
+          caption: ""
+        },
+        {
+          url: "/public/media/semester/listings.png",
+          caption: ""
+        },
+        {
+          url: "/public/media/semester/listings2.png",
+          caption: ""
+        },
+        {
+          url: "/public/media/semester/listing.png",
+          caption: ""
+        },
+        {
+          url: "/public/media/semester/profile.png",
+          caption: ""
+        },
+        {
+          url: "/public/media/semester/create.png",
+          caption: ""
+        },
+        {
+          url: "/public/media/semester/update.png",
+          caption: ""
+        },
+      ],
+      technologies: ["PostCSS", "Tailwind CSS", "HTML", "JavaScript", "Autoprefixer"],
+      liveUrl: "https://aucti.netlify.app/",
+      githubUrl: "https://github.com/werivik/semester24",
+      design: ``
       ,
 colorScheme: [
   "#2B266F", 
