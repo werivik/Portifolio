@@ -199,8 +199,12 @@ colorScheme: [
       id: "semester",
       title: "Aucti",
       category: "Bidding Website",
-      description: "A interactive Auction website",
-      detailedDescription: ``,
+      description: "A interactive auction platform that allows users to create listings and place real-time bids",
+      detailedDescription: `Aucti is a feature-rich auction web application developed as part of a semester project. Designed to simulate a live bidding environment, Aucti enables users to register, log in, and participate in online auctions in real time. The platform emphasizes user interaction and bidding transparency, offering a seamless experience from listing creation to auction tracking.
+
+Key user-facing features include browsing available auctions, placing competitive bids, and managing personal profiles—including avatar updates and tracking bid history. Registered users can also create, edit, and delete their own auction listings, providing both buyer and seller functionality within the same account system.
+
+Built using HTML, JavaScript, and Tailwind CSS with PostCSS and Autoprefixer, Aucti demonstrates strong fundamentals in front-end development, user authentication, and responsive design. The site offers smooth interactions across various device sizes and includes practical features like bid status updates, listing management, and profile customization to support a complete auction experience.`,
       images: [
         {
           url: "/public/media/semester/homepage.png",
@@ -250,29 +254,39 @@ colorScheme: [
       technologies: ["PostCSS", "Tailwind CSS", "HTML", "JavaScript", "Autoprefixer"],
       liveUrl: "https://aucti.netlify.app/",
       githubUrl: "https://github.com/werivik/semester24",
-      design: ``
+      design: `Aucti’s design blends old-school aesthetics with modern UI principles, aiming to create a unique visual identity that feels both nostalgic and fresh. The overall color palette is grounded in a beige background (#EBEEE9) that provides a warm, retro foundation. Most interactive components - such as cards and containers - are styled in a dark grey tone (#29272F), enhanced with a grainy textured overlay that evokes a vintage, analog feel.
+
+Despite this nostalgic atmosphere, the layout and UI elements are firmly rooted in modern design. Rounded corners, clean sans-serif typography, and interactive button hover states bring a contemporary usability layer to the interface. Action buttons are styled in green (#81AB76) and orange (#D6650F), with hover effects that swap the background and text colors to draw attention and create visual feedback without being disruptive.
+
+The listing cards are intentionally unique, breaking away from standard rectangular formats. Each card is taller than it is wide and features a creative visual twist: the bottom corner appears to be “cut away”, housing a green arrow button that invites users to view the item in more detail. This small but impactful design choice gives Aucti a signature style, making it memorable and engaging.
+
+The entire design is responsive, adapting fluidly across screen sizes, and aims to offer a consistent experience on mobile, tablet, and desktop devices. With its thoughtful mix of classic textures and clean UI elements, Aucti delivers an interface that feels distinctive, expressive, and user-focused.`
       ,
 colorScheme: [
-  "#2B266F", 
-  "#FCFBF6", 
-  "#E07A5F", 
+  "#EBEEE9", 
+  "#29272F", 
+  "#81AB76", 
+  "#D6650F", 
 ],
       fonts: [
-        "Segoe UI"
+        "Libre Bodoni Serif"
       ],
       challenges: [
-        "Managing real-time data synchronization",
+        "First Time using Tailwind CSS",
         "Creating responsive layouts for mobile devices"
       ],
       learnings: [
-        "Firebase real-time database optimization",
-        "Teamwork with multiple Branches"
+        "Practical use of Tailwind CSS and PostCSS for scalable styling",
+        "Authentication flows with form validation and feedback",
+        "Dobbel Check Issues before taking a break"
       ],
       improvements: [
-        "Add reusable UI Components"
+        "Add reusable UI Components",
+        "Improve the Styling",
+        "Improve scalability and Responsivness"
       ],
-      dateCompleted: "April 2025",
-      duration: "4 Weeks"
+      dateCompleted: "December 2024",
+      duration: "5 Weeks"
     },
 
     "venue": {
