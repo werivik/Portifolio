@@ -17,38 +17,38 @@ This project was developed as part of the Noroff FED2 JavaScript2 project.`,
         },
         {
           url: "/public/media/ecommerce/homepage2.png",
-          caption: "Product detail page with image gallery and customer reviews"
+          caption:"Homepage of the e-commerce platform showcasing the modern product grid and navigation"
         },
         {
           url: "/public/media/ecommerce/homepage3.png",
-          caption: "Shopping cart with real-time updates and secure checkout process"
+          caption: "Homepage of the e-commerce platform showcasing the modern product grid and navigation"
         },
         {
           url: "/public/media/ecommerce/products.png",
-          caption: "Admin dashboard displaying analytics and inventory management"
+          caption: "The product page of the e-commerce platform showcasing all products in a grid"
         },
         {
           url: "/public/media/ecommerce/product.png",
-          caption: "Mobile-responsive design showcasing seamless user experience"
+          caption: "The product page showing the products image gallery and product information."
         },
         {
           url: "/public/media/ecommerce/cart.png",
-          caption: "Mobile-responsive design showcasing seamless user experience"
+          caption: "The shopping cart page displaying the product list on the left and the price on the right."
         },
         {
           url: "/public/media/ecommerce/orderconfirmation.png",
-          caption: "Mobile-responsive design showcasing seamless user experience"
+          caption: "The order confirmation page showcasing all the necessary inputs to successfully purchase the listed products."
         },
         {
           url: "/public/media/ecommerce/success.png",
-          caption: "Mobile-responsive design showcasing seamless user experience"
+          caption: "The order success page showcasing what the user has purchased."
         },        
         {
           url: "/public/media/ecommerce/contact.png",
-          caption: "Mobile-responsive design showcasing seamless user experience"
+          caption: "The contact page showcasing a contact form."
         }
       ],
-      technologies: ["React", "React Router DOM", "CSS Modules", "JavaScript", "Netlify", "HTML", "Noroff API"],
+      technologies: ["React", "CSS Modules", "JavaScript", "Netlify", "HTML", "Noroff API"],
       liveUrl: "https://nuvra.netlify.app/",
       githubUrl: "https://github.com/werivik/Nuvra",
       design: `
@@ -251,7 +251,8 @@ Built using HTML, JavaScript, and Tailwind CSS with PostCSS and Autoprefixer, Au
           caption: ""
         },
       ],
-      technologies: ["PostCSS", "Tailwind CSS", "HTML", "JavaScript", "Autoprefixer"],
+      
+      technologies: ["PostCSS", "Tailwind CSS", "HTML", "JavaScript", "Netlify", "Noroff API"],
       liveUrl: "https://aucti.netlify.app/",
       githubUrl: "https://github.com/werivik/semester24",
       design: `Aucti’s design blends old-school aesthetics with modern UI principles, aiming to create a unique visual identity that feels both nostalgic and fresh. The overall color palette is grounded in a beige background (#EBEEE9) that provides a warm, retro foundation. Most interactive components - such as cards and containers - are styled in a dark grey tone (#29272F), enhanced with a grainy textured overlay that evokes a vintage, analog feel.
@@ -304,138 +305,138 @@ Holidaze is built with a focus on clean, responsive design and delivers a seamle
       images: [
         {
           url: "/public/media/venue/homepage.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Homepage of the Booking platform showcasing a hero video and filters and a navbar on top."
         },
         {
           url: "/public/media/venue/homepage2.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Hotel booking website homepage with search bar for destination, dates, and guests, featuring amenities like breakfast, parking, WiFi, and pet-friendly options."
         },
         {
           url: "/public/media/venue/homepage3.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Hotel registration page with modern lobby image featuring green chairs and palm plants, promoting account creation for booking benefits and discounts."
         },
         {
           url: "/public/media/venue/homepage4.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Travel destinations showcase featuring Paris, Santorini, Tokyo, and New York with inspirational travel quote and destination photos."
         },
         {
           url: "/public/media/venue/homepage5.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Hotel listings section displaying 5-star rated accommodations with prices ranging from $1 to $3000 per night across various locations."
         },
         {
           url: "/public/media/venue/homepage6.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Holidaze website footer with brand logo, tagline 'Elegance meets Comfort', and navigation links for venues, profile, and about sections"
         },
         {
           url: "/public/media/venue/venues.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "The all venues page showcasing the hotel listings displaying diverse accommodations from budget to luxury, including tropical resorts and modern hotels."
         },
         {
           url: "/public/media/venue/venues2.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "The all venues page showcasing the hotel listings displaying diverse accommodations from budget to luxury, including tropical resorts and modern hotels with pagination controls."
         },
         {
           url: "/public/media/venue/venue.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Hotel booking website showing venue details page with title, address, description text, pricing at $2750 per night, amenities icons, and login prompt."
         },
         {
           url: "/public/media/venue/venue2.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Hotel booking website displaying image gallery with main photo of modern multi-story building and thumbnail images, alongside venue title and booking information."
         },  
         {
           url: "/public/media/venue/venue3.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Hotel booking website showing venue manager profile section with user avatar, creation and update dates, plus amenities list including Wi-Fi, parking, and breakfast options."
         },  
         {
           url: "/public/media/venue/venuecostumer.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Hotel booking website showing venue manager profile page with beach banner image, profile avatar, rating display, sort dropdown, and grid of venue thumbnail cards."
         },
         {
           url: "/public/media/venue/venueowner.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Hotel booking website displaying venue manager's portfolio with four property cards showing ratings, titles, locations, and pricing information in grid layout."
         },
         {
           url: "/public/media/venue/venueowner2.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Hotel booking website registration modal with welcome message, customer signup form containing username, email and password fields, and login button."
         },
         {
           url: "/public/media/venue/register.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Hotel booking website login modal with customer login form containing email and password fields, login button, and registration link options."
         },  
         {
           url: "/public/media/venue/login.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "User dashboard with sidebar profile section, main content area showing bookings header with sort dropdown, and three booking cards displaying destination images and dates."
         },  
         {
           url: "/public/media/venue/costumerprofile.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "User profile page showing sidebar navigation, two completed booking cards with hotel details and pricing, and edit profile form with avatar and banner URL fields."
         }, 
         {
           url: "/public/media/venue/costumerprofile2.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Profile page showing user Jacob with his hotel bookings and an edit profile form with avatar and banner URL fields."
         },
         {
           url: "/public/media/venue/venuepopup.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Booking details modal displaying coastal property image on left, venue information with description and amenities on right, and booking summary with guest count and pricing"
         }, 
         {
           url: "/public/media/venue/registeradmin.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Admin verification screen with a 4-digit security code input field and verify button on a hotel lobby background."
         },
         {
           url: "/public/media/venue/loginadmin.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Holidaze login page for venue managers with email and password fields on a hotel lobby background."
         },
         {
           url: "/public/media/venue/adminprofile.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Venue manager dashboard showing user profile sidebar and grid of managed venues with ratings and a create venue button."
         },
         {
           url: "/public/media/venue/adminprofile2.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Edit profile page for venue manager with avatar and banner URL input fields and a venue listing preview."
         },
         {
           url: "/public/media/venue/adminpopup.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Venue details modal showing luxury hotel lobby with venue information, pricing, amenities, and edit/delete options."
         },
         {
           url: "/public/media/venue/edit.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Edit venue form showing name, description, price, and max guests fields for The Editing Venue"
         },
         {
           url: "/public/media/venue/edit2.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Media management section displaying venue image URLs with remove buttons, amenity checkboxes, and location fields."
         },
         {
           url: "/public/media/venue/create.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Create new venue form with progress sidebar, input fields for venue details, amenities selection, and location information."
         },
         {
           url: "/public/media/venue/about.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Holidaze about page hero section with elegant interior background and company tagline"
         },
         {
           url: "/public/media/venue/about2.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Holidaze mission statement and core values section showing Trust, Diversity, Sustainability, and Excellence"
         },
         {
           url: "/public/media/venue/about3.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Holidaze company story section with team photo and founder background information"
         },
         {
           url: "/public/media/venue/about4.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Holidaze team profiles showing four key staff members with their roles and brief descriptions"
         },
         {
           url: "/public/media/venue/contact.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption: "Holidaze contact page with location details, contact form, and social media links"
         },
         {
           url: "/public/media/venue/contact2.png",
-          caption: "Interactive dashboard showing multiple data visualizations with filtering and export options"
+          caption:  "Holidaze location map showing Baker Street address in London and FAQ section below"
         },                
       ],
-      technologies: ["React", "HTML", "JavaScript", "Framer Motion", "CSS", "Vite"],
+      technologies: ["React", "HTML", "JavaScript", "Framer Motion", "CSS Module", "Vite", "Noroff API", "Netlify"],
       liveUrl: "https://werivik-holidaze.netlify.app/",
       githubUrl: "https://github.com/werivik/exam2025",
       design: `The Holidaze platform features a modern, calm, and welcoming design aimed at creating a comfortable and engaging experience for users. The overall aesthetic is clean and refined, with a soft beige background that sets a neutral, relaxing tone. Accent colors—gold, green, and a deep, nearly black shade of dark beige—are used strategically for buttons and interactive elements to draw attention without overwhelming the user.
