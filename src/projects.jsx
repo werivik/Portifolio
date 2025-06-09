@@ -208,47 +208,47 @@ Built using HTML, JavaScript, and Tailwind CSS with PostCSS and Autoprefixer, Au
       images: [
         {
           url: "/public/media/semester/homepage.png",
-          caption: ""
+          caption: "Aucti homepage with registration form offering 1000 credits for new accounts and 'Bidding Safely & Effectively' tagline."
         },
         {
           url: "/public/media/semester/homepage2.png",
-          caption: ""
+          caption: "Aucti featured listings section showing three auction items with bidding counts and navigation arrows."
         },
         {
           url: "/public/media/semester/homepage3.png",
-          caption: ""
+          caption: "Aucti footer section with company information, contact details, and site navigation links."
         },
         {
           url: "/public/media/semester/register.png",
-          caption: ""
+          caption: "Aucti registration form with username, email, and password fields."
         },
         {
           url: "/public/media/semester/login.png",
-          caption: ""
+          caption: "Aucti login page with email and password input fields."
         },
         {
           url: "/public/media/semester/listings.png",
-          caption: ""
+          caption: "Aucti listings page showing auction items."
         },
         {
           url: "/public/media/semester/listings2.png",
-          caption: ""
+          caption: "Aucti auction listings displaying various items with bid counts."
         },
         {
           url: "/public/media/semester/listing.png",
-          caption: ""
+          caption: "Aucti auction page for one of the listed products with bidding interface"
         },
         {
           url: "/public/media/semester/profile.png",
-          caption: ""
+          caption: "Aucti user profile page showing a listing and profile information."
         },
         {
           url: "/public/media/semester/create.png",
-          caption: ""
+          caption: "Aucti create new listing form with fields for image, title, description, tags, and end date."
         },
         {
           url: "/public/media/semester/update.png",
-          caption: ""
+          caption: "Aucti update listing page for a already existing listing with edit form and preview."
         },
       ],
       
