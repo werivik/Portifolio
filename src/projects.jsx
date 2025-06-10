@@ -12,39 +12,39 @@ The Contact Page includes a fully validated form with fields for name, subject, 
 This project was developed as part of the Noroff FED2 JavaScript2 project.`,
       images: [
         {
-          url: "/public/media/ecommerce/homepage.png",
+          url: "/media/ecommerce/homepage.png",
           caption: "Homepage of the e-commerce platform showcasing the modern product grid and navigation"
         },
         {
-          url: "/public/media/ecommerce/homepage2.png",
+          url: "/media/ecommerce/homepage2.png",
           caption:"Homepage of the e-commerce platform showcasing the modern product grid and navigation"
         },
         {
-          url: "/public/media/ecommerce/homepage3.png",
+          url: "/media/ecommerce/homepage3.png",
           caption: "Homepage of the e-commerce platform showcasing the modern product grid and navigation"
         },
         {
-          url: "/public/media/ecommerce/products.png",
+          url: "/media/ecommerce/products.png",
           caption: "The product page of the e-commerce platform showcasing all products in a grid"
         },
         {
-          url: "/public/media/ecommerce/product.png",
+          url: "/media/ecommerce/product.png",
           caption: "The product page showing the products image gallery and product information."
         },
         {
-          url: "/public/media/ecommerce/cart.png",
+          url: "/media/ecommerce/cart.png",
           caption: "The shopping cart page displaying the product list on the left and the price on the right."
         },
         {
-          url: "/public/media/ecommerce/orderconfirmation.png",
+          url: "/media/ecommerce/orderconfirmation.png",
           caption: "The order confirmation page showcasing all the necessary inputs to successfully purchase the listed products."
         },
         {
-          url: "/public/media/ecommerce/success.png",
+          url: "/media/ecommerce/success.png",
           caption: "The order success page showcasing what the user has purchased."
         },        
         {
-          url: "/public/media/ecommerce/contact.png",
+          url: "/media/ecommerce/contact.png",
           caption: "The contact page showcasing a contact form."
         }
       ],
@@ -207,47 +207,47 @@ Key user-facing features include browsing available auctions, placing competitiv
 Built using HTML, JavaScript, and Tailwind CSS with PostCSS and Autoprefixer, Aucti demonstrates strong fundamentals in front-end development, user authentication, and responsive design. The site offers smooth interactions across various device sizes and includes practical features like bid status updates, listing management, and profile customization to support a complete auction experience.`,
       images: [
         {
-          url: "/public/media/semester/homepage.png",
+          url: "/media/semester/homepage.png",
           caption: "Aucti homepage with registration form offering 1000 credits for new accounts and 'Bidding Safely & Effectively' tagline."
         },
         {
-          url: "/public/media/semester/homepage2.png",
+          url: "/media/semester/homepage2.png",
           caption: "Aucti featured listings section showing three auction items with bidding counts and navigation arrows."
         },
         {
-          url: "/public/media/semester/homepage3.png",
+          url: "/media/semester/homepage3.png",
           caption: "Aucti footer section with company information, contact details, and site navigation links."
         },
         {
-          url: "/public/media/semester/register.png",
+          url: "/media/semester/register.png",
           caption: "Aucti registration form with username, email, and password fields."
         },
         {
-          url: "/public/media/semester/login.png",
+          url: "/media/semester/login.png",
           caption: "Aucti login page with email and password input fields."
         },
         {
-          url: "/public/media/semester/listings.png",
+          url: "/media/semester/listings.png",
           caption: "Aucti listings page showing auction items."
         },
         {
-          url: "/public/media/semester/listings2.png",
+          url: "/media/semester/listings2.png",
           caption: "Aucti auction listings displaying various items with bid counts."
         },
         {
-          url: "/public/media/semester/listing.png",
+          url: "/media/semester/listing.png",
           caption: "Aucti auction page for one of the listed products with bidding interface"
         },
         {
-          url: "/public/media/semester/profile.png",
+          url: "/media/semester/profile.png",
           caption: "Aucti user profile page showing a listing and profile information."
         },
         {
-          url: "/public/media/semester/create.png",
+          url: "/media/semester/create.png",
           caption: "Aucti create new listing form with fields for image, title, description, tags, and end date."
         },
         {
-          url: "/public/media/semester/update.png",
+          url: "/media/semester/update.png",
           caption: "Aucti update listing page for a already existing listing with edit form and preview."
         },
       ],
@@ -304,135 +304,135 @@ Admin users, referred to as Venue Managers, have the ability to create, edit, an
 Holidaze is built with a focus on clean, responsive design and delivers a seamless user experience across desktop and mobile devices. The application demonstrates strong front-end development principles, thoughtful user experience design, and effective use of a third-party API.`,
       images: [
         {
-          url: "/public/media/venue/homepage.png",
+          url: "/media/venue/homepage.png",
           caption: "Homepage of the Booking platform showcasing a hero video and filters and a navbar on top."
         },
         {
-          url: "/public/media/venue/homepage2.png",
+          url: "/media/venue/homepage2.png",
           caption: "Hotel booking website homepage with search bar for destination, dates, and guests, featuring amenities like breakfast, parking, WiFi, and pet-friendly options."
         },
         {
-          url: "/public/media/venue/homepage3.png",
+          url: "/media/venue/homepage3.png",
           caption: "Hotel registration page with modern lobby image featuring green chairs and palm plants, promoting account creation for booking benefits and discounts."
         },
         {
-          url: "/public/media/venue/homepage4.png",
+          url: "/media/venue/homepage4.png",
           caption: "Travel destinations showcase featuring Paris, Santorini, Tokyo, and New York with inspirational travel quote and destination photos."
         },
         {
-          url: "/public/media/venue/homepage5.png",
+          url: "/media/venue/homepage5.png",
           caption: "Hotel listings section displaying 5-star rated accommodations with prices ranging from $1 to $3000 per night across various locations."
         },
         {
-          url: "/public/media/venue/homepage6.png",
+          url: "/media/venue/homepage6.png",
           caption: "Holidaze website footer with brand logo, tagline 'Elegance meets Comfort', and navigation links for venues, profile, and about sections"
         },
         {
-          url: "/public/media/venue/venues.png",
+          url: "/media/venue/venues.png",
           caption: "The all venues page showcasing the hotel listings displaying diverse accommodations from budget to luxury, including tropical resorts and modern hotels."
         },
         {
-          url: "/public/media/venue/venues2.png",
+          url: "/media/venue/venues2.png",
           caption: "The all venues page showcasing the hotel listings displaying diverse accommodations from budget to luxury, including tropical resorts and modern hotels with pagination controls."
         },
         {
-          url: "/public/media/venue/venue.png",
+          url: "/media/venue/venue.png",
           caption: "Hotel booking website showing venue details page with title, address, description text, pricing at $2750 per night, amenities icons, and login prompt."
         },
         {
-          url: "/public/media/venue/venue2.png",
+          url: "/media/venue/venue2.png",
           caption: "Hotel booking website displaying image gallery with main photo of modern multi-story building and thumbnail images, alongside venue title and booking information."
         },  
         {
-          url: "/public/media/venue/venue3.png",
+          url: "/media/venue/venue3.png",
           caption: "Hotel booking website showing venue manager profile section with user avatar, creation and update dates, plus amenities list including Wi-Fi, parking, and breakfast options."
         },  
         {
-          url: "/public/media/venue/venuecostumer.png",
+          url: "/media/venue/venuecostumer.png",
           caption: "Hotel booking website showing venue manager profile page with beach banner image, profile avatar, rating display, sort dropdown, and grid of venue thumbnail cards."
         },
         {
-          url: "/public/media/venue/venueowner.png",
+          url: "/media/venue/venueowner.png",
           caption: "Hotel booking website displaying venue manager's portfolio with four property cards showing ratings, titles, locations, and pricing information in grid layout."
         },
         {
-          url: "/public/media/venue/venueowner2.png",
+          url: "/media/venue/venueowner2.png",
           caption: "Hotel booking website registration modal with welcome message, customer signup form containing username, email and password fields, and login button."
         },
         {
-          url: "/public/media/venue/register.png",
+          url: "/media/venue/register.png",
           caption: "Hotel booking website login modal with customer login form containing email and password fields, login button, and registration link options."
         },  
         {
-          url: "/public/media/venue/login.png",
+          url: "/media/venue/login.png",
           caption: "User dashboard with sidebar profile section, main content area showing bookings header with sort dropdown, and three booking cards displaying destination images and dates."
         },  
         {
-          url: "/public/media/venue/costumerprofile.png",
+          url: "/media/venue/costumerprofile.png",
           caption: "User profile page showing sidebar navigation, two completed booking cards with hotel details and pricing, and edit profile form with avatar and banner URL fields."
         }, 
         {
-          url: "/public/media/venue/costumerprofile2.png",
+          url: "/media/venue/costumerprofile2.png",
           caption: "Profile page showing user Jacob with his hotel bookings and an edit profile form with avatar and banner URL fields."
         },
         {
-          url: "/public/media/venue/venuepopup.png",
+          url: "/media/venue/venuepopup.png",
           caption: "Booking details modal displaying coastal property image on left, venue information with description and amenities on right, and booking summary with guest count and pricing"
         }, 
         {
-          url: "/public/media/venue/registeradmin.png",
+          url: "/media/venue/registeradmin.png",
           caption: "Admin verification screen with a 4-digit security code input field and verify button on a hotel lobby background."
         },
         {
-          url: "/public/media/venue/loginadmin.png",
+          url: "/media/venue/loginadmin.png",
           caption: "Holidaze login page for venue managers with email and password fields on a hotel lobby background."
         },
         {
-          url: "/public/media/venue/adminprofile.png",
+          url: "/media/venue/adminprofile.png",
           caption: "Venue manager dashboard showing user profile sidebar and grid of managed venues with ratings and a create venue button."
         },
         {
-          url: "/public/media/venue/adminprofile2.png",
+          url: "/media/venue/adminprofile2.png",
           caption: "Edit profile page for venue manager with avatar and banner URL input fields and a venue listing preview."
         },
         {
-          url: "/public/media/venue/adminpopup.png",
+          url: "/media/venue/adminpopup.png",
           caption: "Venue details modal showing luxury hotel lobby with venue information, pricing, amenities, and edit/delete options."
         },
         {
-          url: "/public/media/venue/edit.png",
+          url: "/media/venue/edit.png",
           caption: "Edit venue form showing name, description, price, and max guests fields for The Editing Venue"
         },
         {
-          url: "/public/media/venue/edit2.png",
+          url: "/media/venue/edit2.png",
           caption: "Media management section displaying venue image URLs with remove buttons, amenity checkboxes, and location fields."
         },
         {
-          url: "/public/media/venue/create.png",
+          url: "/media/venue/create.png",
           caption: "Create new venue form with progress sidebar, input fields for venue details, amenities selection, and location information."
         },
         {
-          url: "/public/media/venue/about.png",
+          url: "/media/venue/about.png",
           caption: "Holidaze about page hero section with elegant interior background and company tagline"
         },
         {
-          url: "/public/media/venue/about2.png",
+          url: "/media/venue/about2.png",
           caption: "Holidaze mission statement and core values section showing Trust, Diversity, Sustainability, and Excellence"
         },
         {
-          url: "/public/media/venue/about3.png",
+          url: "/media/venue/about3.png",
           caption: "Holidaze company story section with team photo and founder background information"
         },
         {
-          url: "/public/media/venue/about4.png",
+          url: "/media/venue/about4.png",
           caption: "Holidaze team profiles showing four key staff members with their roles and brief descriptions"
         },
         {
-          url: "/public/media/venue/contact.png",
+          url: "/media/venue/contact.png",
           caption: "Holidaze contact page with location details, contact form, and social media links"
         },
         {
-          url: "/public/media/venue/contact2.png",
+          url: "/media/venue/contact2.png",
           caption:  "Holidaze location map showing Baker Street address in London and FAQ section below"
         },                
       ],
